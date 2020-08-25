@@ -1,0 +1,477 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.image{
+    position	: relative;
+	width		: 100%;
+    z-index: 0;
+}
+#rectangle{
+    position: absolute;
+    width: 1920px;
+    height: 83px;
+    opacity: 0.5;
+    background-color: #000000;
+    z-index: 50;
+    margin-top: 13px;
+}
+.logo_text{
+    position: absolute;
+    top: 32px;
+    left: 475px;
+    z-index: 100;
+}
+
+.historical{
+font-family: 'Poppins', sans-serif;
+font-size: 36px;
+line-height: 22px;
+font-weight: 500;
+letter-spacing: 0.01em;
+color: #ffffff; 
+}
+
+.games{
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+line-height: 22px;
+font-weight: 500;
+letter-spacing: 2.0em;
+color: #ffffff;
+}
+.phoneimg{
+    position: absolute;
+    top: 41px;
+    left: 802px;
+    z-index: 100;
+}
+.phone_number{
+    position: absolute;
+    top: 49px;
+    left: 833px;
+    z-index: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16.7px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+.emailimg{
+    position: absolute;
+    top: 45px;
+    left: 971px;
+    z-index: 100;
+}
+.email{
+    position: absolute;
+    top: 48px;
+    left: 1010px;
+    z-index: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16.7px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+#rectangle_search{
+    position: absolute;
+    width: 208px;
+    height: 38px;
+    top: 36px;
+    left: 1238px;
+    border: 1.0px solid #ffffff;
+    z-index: 100;
+}
+#vertline{
+    position: absolute;
+    height:38px; 
+    width:1px;
+    top: 36px;
+    left: 1395px;
+    border-left: 1.0px solid #ffffff; 
+    z-index: 100; 
+}
+.search_title{
+    top: 48px;
+    left: 1254px;
+    position: absolute;
+    z-index: 100;
+    font-size: 16.7px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.search_icon{
+    top: 47px;
+    left: 1403px;
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    z-index: 100;
+}
+ul.menu-header li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+}
+.menu-header{
+    position: absolute;
+    top: 108px;
+    left: 703px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16.7px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-weight: 400;
+}
+.linkmenu{
+    padding-left: 25px;
+}
+
+#horizontal_menu{
+    position: absolute;
+    z-index: 100; 
+    top:174px;
+    width: 1923px;
+    height: 1px;
+    border-bottom: 0.5px solid #ffffff;
+}
+.Nunc{
+    position: absolute;
+    z-index: 100; 
+    top:293px;
+    left: 906px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+#vertline_1{
+    position: absolute;
+    z-index: 100; 
+    border-bottom: 0.5px solid #ffffff;
+    width: 80px;
+    height: 2px;
+    top:343px;
+    left: 917px;
+}
+.Morbi{
+    position: absolute;
+    z-index: 100; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    line-height: 48px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    top:421px;
+    left: 670px;
+}
+
+.title_about{
+    position: absolute;
+    z-index: 100; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #f44336;
+    top: 820px;
+    left: 475px;
+}
+
+.desc_1{
+    position: absolute;
+    z-index: 100; 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: #999999;
+    left: 475px;
+    top: 883px;
+    height: 203px; 
+    width: 398px;
+    margin: auto;
+}
+.about_us_desc{
+    top: 820;
+    height: 500px;
+    width: 100%;
+    position: static;
+}
+
+.services{
+    z-index: 0;
+    top: 1 225px;
+    width: 100%;
+    height: 762px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.title{
+    position: absolute;
+    z-index: 0;
+    left: 888px;
+    margin-top: 92px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #f44336;
+}
+
+.left_text{
+    position: absolute;
+    text-align: right;
+    left: 467px;
+    top: 212px;
+    height: 51px;
+    width: 282px
+    
+}
+.right_text{
+    position: absolute;
+    text-align: left;
+    left: 1177px;
+    top: 212px;
+    height: 51px;
+    width: 282px
+}
+.space_services{
+    padding-bottom: 60px;
+}
+.title_ofservices{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 13px;
+}
+.text_ofservices{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #999999;
+}
+
+.left_circle{
+    position: absolute;
+    left: 815px;
+    top: 212px;
+    
+}
+.right_circle{
+    position: absolute;
+    left: 1007px;
+    top: 212px;
+}
+.circle{
+  z-index: 50;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  border: 1.0px solid #acacac;;
+  height: 102px;
+  width: 102px;
+  margin-bottom: 73px;
+}
+.leftservicesimg{
+    position: absolute;
+    z-index: 100;
+}
+.rightservicesimg{
+    position: absolute;
+    z-index: 100;
+}
+.one{
+    top: 250px;
+    left: 860px;
+}
+.two{
+    top: 428px;
+    left: 860px;
+}
+.three{
+    top: 605px;
+    left: 857px;
+}
+.four{
+    top: 254px;
+    left: 1048px;
+}
+.five{
+    top: 429px;
+    left: 1048px;
+}
+.six{
+    top: 607px;
+    left: 1049px;
+}
+.rogue{
+    position: absolute;
+    margin-top: 222px;
+    left: 377px;
+}
+.tomb_raider{
+    position: absolute;
+    margin-top: 222px;
+    left: 677px;
+}
+.ryse{
+    position: absolute;
+    margin-top: 222px;
+    left: 977px;
+}
+.WoW{
+    position: absolute;
+    margin-top: 222px;
+    left: 1278px;
+}
+.rec{
+    width: 270px;
+    height: 105px;
+    background-color: #f7f7f7;
+    position: absolute;
+    margin-top: 599px;
+}
+#rec_1{
+    left: 377px;
+}
+#rec_2{
+    left: 677px;
+}
+#rec_3{
+    left: 977px;
+}
+#rec_4{
+    left: 1277px;
+}
+.button{
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    margin-left: 70px;
+    margin-top: 61px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    border: none; 
+    outline: none;
+}
+.text_gallery{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.one_gallery{
+    margin-left: 51px;
+    margin-top: 19px;
+}
+.two_gallery{
+    margin-left: 89px;
+    margin-top: 20px;
+}
+.three_gallery{
+    margin-left: 73px;
+    margin-top: 20px;
+}
+.four_gallery{
+    margin-left: 52px;
+    margin-top: 16px;
+    text-align: center;
+}
+.art{
+    margin-top: 889px;
+    z-index: 50;
+}
+.art_title{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #ffffff;
+    z-index: 100;
+    left: 822px;
+    top: 2930px;
+}
+.ikonka{
+    position: absolute;
+    left: 931px; 
+    top: 3090px;
+    opacity: 0.7;
+}
+.arrow{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.arrow_right{
+   left: 1509px;
+}
+.art_border{
+        position: absolute;
+        top: 3171px;
+        left: 377px; 
+        width: 37px;
+        height: 37px;
+        border: 1px solid #ffffff;
+}
+.art_border_right{
+    position: absolute;
+        top: 3171px;
+        left: 1509px; 
+        width: 37px;
+        height: 37px;
+        border: 1px solid #ffffff;
+}
+.art_text{
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    top: 3171px;
+    left: 495px; 
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 935px;
+    height: 136px;
+}
+
+.jonh{
+    font-size: 16px;
+    line-height: 1.2;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    top: 3305px;
+    left: 495px; 
+    width: 935px;
+    font-size: 16px;
+}
