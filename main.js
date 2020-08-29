@@ -11,7 +11,7 @@ class GoodsItem {
    this.price = price;
    this.img = img;
 }
-_render(){
+_render(title, price){
    return `
   <div id = "rec_1" class = "rec">
   <div class = "text_gallery one_gallery"> <a href = "#" class = "">${title}</a>
@@ -33,7 +33,7 @@ class GoodsList{
     let html = '';
     this.goods.forEach(({ title, price }) => {
       const goodItem = new GoodsItem(title, price);
-      html += goodItem._render();
+      html += goodItem._render(title, price);
     })
     document.querySelector('.goods-list').innerHTML = html;
   }
@@ -49,3 +49,24 @@ class GoodsList{
 const list = new GoodsList();
 list._fetchGoods();
 list._render();
+
+
+//makeGETRequest()
+function makeGETRequest(url, callback){
+  let xhr;
+  if(window.XMLHttpRequest){
+    xhr = new XMLHttpRequest();
+}
+else if(window.ActiveXObject){
+    xhr = new ActiveXObject(s: "Microsoft.XMLHTTP");
+}
+xhr.onreadystatechange = function(){
+  if (xhr.readyState === 4){
+      callback(JSON.parse(xhr.response));
+  }
+  }
+xhr.open(method: 'GET', url);
+
+//отправка запроса
+xhr.send()
+}
