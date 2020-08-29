@@ -70,3 +70,59 @@ xhr.open(method: 'GET', url);
 //отправка запроса
 xhr.send()
 }
+
+makeGETRequest()
+
+class BasketItem{
+  constructor(goodItem){
+          this.name = this.name,
+          this.price = this.price,
+          this.img = this.img,
+          this.desc = this.desc, //short description
+          this.quantity  = this.quantity
+  }
+  //Удалить товар
+  deleteItem = () => {
+      let index = event.target.goodItem;
+      BasketItem.deleteItem(index);
+  }
+  //добавить товар в корзину
+  addItem = () => {
+      let goodName = event.target.goodItem;
+      let product = GoodsItem[goodName];
+      BasketItem.addItem(product);
+  }
+}
+
+class Basket{
+  constructor(goodItem){
+      this.goodItem = []
+  }
+  //Очистка корзины
+  clearBasket(){
+
+  }
+  
+  //Общая сумма товаров
+  total_sum(){
+
+  }
+  //Перейти к оплате
+  payAll(){
+
+  }
+  //Увеличитить количество товара
+  sizeItem(){}
+  _render(){
+    let html = '';
+    this.goodItem.forEach(({ title, price }) => {
+      const goodItem = new GoodsItem(title, price);
+      html += goodItem._render(title, price);
+    })
+    document.querySelector('.goods-list').innerHTML = html;
+  }
+}
+ //получение списка товаров
+var openBasket = () => {
+  Basket.render();
+};
