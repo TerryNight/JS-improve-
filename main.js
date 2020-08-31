@@ -15,7 +15,7 @@ _render(title, price){
    return `
   <div id = "rec_1" class = "rec">
   <div class = "text_gallery one_gallery"> <a href = "#" class = "">${title}</a>
-    <p class="featured_price"><span class = "">$${price}</span></p>
+    <p class="featured_price"><span class = "">${price}</span></p>
   <button class = "button">Buy</button>
   </div>` ;
    }
