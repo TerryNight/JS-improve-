@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        <div class="app">
+        <input type="text" value = "name"
+        @input="changeName($event)" />
+
+        <input type="text" v-model = "settings.id"/>
+    </div>
+
+    <script>
+        new Vue({
+            el: '.app',
+            data:{
+                name: 'John',
+                age: 25,
+                settings:{
+                    id: 'fsf324f454r'
+                }
+            },
+            computed: {
+                userDescription(){
+                    return "${this.names} is ${this.age > 60 ? `old` : `young`} with id ${this.settings.id}"
+                }
+            },
+            methods: {
+                changeName(event) {
+                    this.name = event.target.value;
+                }
+            }
+        });
+    </script>
+
+    </script>
+</body>
+</html>
